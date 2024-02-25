@@ -34,31 +34,35 @@
           </a>
           <span class="tooltip">Build The Smart City You Want!</span>
         </div>
-        <ul class="nav_items">
-          <li class="nav_item">
-            <div class="aos" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="600">
-              <a href="#home" class="nav_link">Home</a>
-            </div>
-            <div class="aos" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="700">
-              <a href="#about" class="nav_link">About</a>
-            </div>
-            <div class="aos" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="800">
-              <a href="#gallery" class="nav_link">Gallery</a>
-            </div>
-            <div class="aos" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="900">
-              <button href="#more" class="nav_link drop-btn">
-                More
-                <div class="dropdown">
-                  <a href="#H&P">Hukum & Pasal</a>
-                  <a href="#report">Report</a>
-                  <a href="#FP">Find Parking</a>
-                  <a href="#EC">Emergency Call</a>
-                  <a href="#update">Next Update</a>
-                </div>
-              </button>
-            </div>
-          </li>
-        </ul>       
+        <input hidden="" class="check-icon" id="check-icon" name="check-icon" type="checkbox" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1500">
+        <label class="icon-menu" for="check-icon" data-aos="fade-left" data-aos-delay="700" data-aos-duration="1500">
+            <div class="bar bar--1"></div>
+            <div class="bar bar--2"></div>
+            <div class="bar bar--3"></div>
+        </label>
+        <li class="nav_item">
+          <div class="aos" style="--i:0;" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="600">
+            <a href="#home" class="nav_link">Home</a>
+          </div>
+          <div class="aos" style="--i:1;" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="700">
+            <a href="#about" class="nav_link">About</a>
+          </div>
+          <div class="aos" style="--i:2;" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="800">
+            <a href="#gallery" class="nav_link">Gallery</a>
+          </div>
+          <div class="aos" style="--i:3;" data-aos="fade-left" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="900">
+            <button href="#more" class="nav_link drop-btn">
+              More
+              <div class="dropdown">
+                <a href="#H&P">Hukum & Pasal</a>
+                <a href="#report">Report</a>
+                <a href="#FP">Find Parking</a>
+                <a href="#EC">Emergency Call</a>
+                <a href="#update">Next Update</a>
+              </div>
+            </button>
+          </div>
+        </li>   
       </nav>
     </header>
     <!-- Home -->
@@ -71,7 +75,7 @@
             <h2 data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">for your <span>vehicle</span></h2>
           </div>
         </div>
-        <a href="find-parking.html" class="bg-btn" data-aos="fade-up" data-aos-duration="1000"><span>Get Started</span></a>
+        <a href="find-parking.html" class="bg-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="10"><span>Get Started</span></a>
       </div>
     </section>
     <!-- About Section -->
