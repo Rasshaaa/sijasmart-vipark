@@ -1007,6 +1007,10 @@ footer {
     overflow-x: hidden;
   }
 
+  #content {
+    overflow-x: hidden;
+  }
+
   .quote h2 {
     font-size: 80%;
     margin-right: 1em;
