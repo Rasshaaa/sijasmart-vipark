@@ -4,17 +4,16 @@ window.addEventListener('load', function() {
   const content = document.getElementById('content');
 
   // Simulate network speed (adjust the time based on your needs)
-  setTimeout(function() {
-    // Hide the preloader
-    preloader.style.display = 'none';
-    // Show the content
-    content.style.display = 'flex';
-    content.style.flexDirection = 'column';
-    content.style.alignItems = 'center';
 
-    // Initialize AOS after preloader finishes
+  setTimeout(() => {
+    preloader.style.opacity = '0';
+
+    setTimeout(() => {
+      preloader.style.display = 'none';
+    
+    }, 1000)
     AOS.init();
-  }, 6000); // Example: 3000 milliseconds (3 seconds)
+  }, 5400);
 });
 
 var rellax = new Rellax('.rellax', {
