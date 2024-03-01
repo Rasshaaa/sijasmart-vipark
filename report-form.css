@@ -79,3 +79,59 @@ h1 {
     font-size: 5em;
     color: #fff;
 }
+
+#preloader {
+  position: fixed;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s ease-in-out;
+  background-color: #000;
+  transition: 1s all ease-in-out;
+  z-index: 50;
+}
+
+#preloader img {
+  width: 100vmin;
+  height: 60vmin;
+}
+
+#content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  justify-content: center;
+}
+
+section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background: #333;
+  color: white;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+  width: 100%;
+}
