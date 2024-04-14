@@ -2,17 +2,21 @@
 window.addEventListener('load', function() {
   const preloader = document.getElementById('preloader');
   const content = document.getElementById('content');
-
-  // Simulate network speed (adjust the time based on your needs)
+  const navbar = document.querySelector(".nav")
+  const dropBtn = document.querySelector(".drop-btn")
 
   setTimeout(() => {
     preloader.style.opacity = '0';
 
     setTimeout(() => {
       preloader.style.display = 'none';
-    
     }, 1000)
+
     AOS.init();
+
+    setTimeout(() => {
+      navbar.style.overflow = 'visible';
+    }, 1500)
   }, 5400);
 });
 

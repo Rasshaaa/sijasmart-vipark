@@ -118,6 +118,7 @@ a {
   border-radius: 10px;
   box-shadow: 0 2px 4px 1px rgba(0,0,0,.7);
   z-index: 99999999;
+  overflow: hidden;
 }
 
 .icon-menu {
@@ -365,7 +366,7 @@ a {
   color: #0b0217;
 }
 
- .drop-btn:focus .dropdown, .drop-btn:hover .dropdown {
+.drop-btn:focus .dropdown, .drop-btn:hover .dropdown {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -786,6 +787,7 @@ footer {
   color: #fff;
   padding: 2em;
   font-size: 1.8em;
+  line-height: 1.4;
 }
 
 .rep-btn, .fp-btn {
